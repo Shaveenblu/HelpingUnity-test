@@ -24,7 +24,7 @@ import com.example.HelpingUnity.repository.FundRaisingRepository;
 import com.example.HelpingUnity.repository.UserRepository;
 
 @RestController
-@RequestMapping("/HelpingUnity/Fundraisers")
+@RequestMapping("api/Fundraisers")
 public class FundraisingController {
     @Autowired
     private FundRaisingRepository FundRaisingRepository;

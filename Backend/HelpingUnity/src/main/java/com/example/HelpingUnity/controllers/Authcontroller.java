@@ -19,7 +19,7 @@ import com.example.HelpingUnity.repository.UserRepository;
 
 
 @RestController
-@RequestMapping("/api/auth")
+@RequestMapping("api/HelpingUnity")
 public class Authcontroller {
     @Autowired
     private AuthenticationManager authenticationManager;
